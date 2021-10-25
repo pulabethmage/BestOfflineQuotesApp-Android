@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Best Offline Quotes</string>
+
+
+    <!--    dashboard buttons-->
+    <string name="dash_button_01">Love Quotes</string>
+    <string name="dash_button_02">Famous People Quotes</string>
+    <string name="dash_button_03">Life Quotes</string>
+    <string name="dash_button_04">Inspirational Quotes</string>
+    <string name="dash_button_05">Happiness Quotes</string>
+    <string name="dash_button_06">Friend Quotes</string>
+    <string name="dash_button_07">Family Quotes</string>
+    <string name="title_activity_love_quotes">Love Quotes</string>
+
+
+
+</resources>

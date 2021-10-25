@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="#fff">
+
+    <ImageView
+        android:background="@drawable/bestoffflinelogo"
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"/>
+
+    <ImageView
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:src="@drawable/quotessymbol"
+        android:layout_width="25dp"
+        android:layout_height="25dp"/>
+
+    <TextView
+        android:id="@+id/textQuote"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:text="Quote"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:text="Share with friends"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <View
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"/>
+        <ImageView
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:src="@drawable/facebook"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="80dp"/>
+        <ImageView
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:src="@drawable/twitter"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="80dp"/>
+        <ImageView
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:src="@drawable/email"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="80dp"/>
+        <View
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+</LinearLayout>
